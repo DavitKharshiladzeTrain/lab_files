@@ -1,0 +1,8 @@
+$begin 'CacheDataVersion'
+	DataVersion=24
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	hcavity='15.3mil'
+	tlayer='1.3mil'
+	L='1600mil'
+$end 'VariableValues'
