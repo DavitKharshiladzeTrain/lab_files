@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+INCLUDE $HPEESOF_DIR/oalibs/dsp.defs
+DEFINE paper_test_ads_lib paper_test_ads_lib
+ASSIGN paper_test_ads_lib libMode shared

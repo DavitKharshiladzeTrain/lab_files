@@ -1,0 +1,21 @@
+$begin 'MatrixData'
+	Type='Cap'
+	HasTransMatrix=false
+	Frequency=60000000000
+	SolutionType='Adaptive'
+	Names(3, 1)
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(5.90364618361134e-14)
+			c(-6.136820869528556e-14)
+		$end 'r0'
+		$begin 'r1'
+			c(-6.136820869528556e-14)
+			c(1.175741635373095e-12)
+		$end 'r1'
+	$end 'Matrix'
+	TransitionRegionPreviousFreqs()
+	TransitionRegionCurrentFreqs()
+$end 'MatrixData'

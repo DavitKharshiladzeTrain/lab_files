@@ -1,0 +1,99 @@
+$begin 'MatrixData'
+	Frequency=60000000000
+	SolutionType='InterpolatingSweep'
+	Names(2, 3)
+	$begin 'Frequencies'
+		NumberOfFreqs=1
+		$begin 'DataPoint'
+			Frequency=60000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.8131120437398915)
+					c(-0.03397932998040104)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.03397932998040104)
+					c(0.8131119739277578)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	Type='CondMatrix'
+$end 'MatrixData'
+$begin 'Added'
+	Frequency=40000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.0007025444187009436)
+			c(-2.936113143224808e-05)
+		$end 'r0'
+		$begin 'r1'
+			c(-2.936113143224808e-05)
+			c(0.000702544366622809)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=30020000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.4653371743342863)
+			c(-0.01944623929859175)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.01944623929859175)
+			c(0.4653371349174589)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=15030000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.2485035772657455)
+			c(-0.0103849420441033)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.0103849420441033)
+			c(0.2485035565113969)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=7535000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.1285327698082771)
+			c(-0.005371416203935996)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.005371416203935996)
+			c(0.1285327592248915)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=3787500000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.06560345841504701)
+			c(-0.002741606306685429)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.002741606306685429)
+			c(0.06560345308884505)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'

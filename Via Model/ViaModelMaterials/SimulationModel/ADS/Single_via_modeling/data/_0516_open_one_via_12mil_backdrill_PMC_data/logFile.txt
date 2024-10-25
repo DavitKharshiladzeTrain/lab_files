@@ -1,0 +1,20 @@
+
+hpeesofsim (*) 571.shp Nov  8 2022, MINT version 5
+    (64-bit windows built: Wed Nov 09, 2022 05:38:21 +0000)
+
+
+***** Simulation started at Tue May 21 17:31:19 2024
+      Running on host: "rsgcx39r3"
+      In Directory: "D:\00_Ongoing\9_via_stripline_modeling\via_modeling\AnalyticalEvaluation\Validation\paper_test_ads\data"
+      Process ID: 13252
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 3
+
+
+SP SP1[1] <paper_test_ads_lib:0516_open_one_via_12mil_backdrill_PMC:schematic>   freq=(40 MHz->60 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.69 seconds.
+

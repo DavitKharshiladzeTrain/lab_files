@@ -1,0 +1,11 @@
+$begin 'CacheDataVersion'
+	DataVersion=33
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	rvia='4mil'
+	apad='4mil'
+	bantipad='7mil'
+	tgnd='1.3mil'
+	hudie='15.3mil'
+	dk='3.5'
+$end 'VariableValues'

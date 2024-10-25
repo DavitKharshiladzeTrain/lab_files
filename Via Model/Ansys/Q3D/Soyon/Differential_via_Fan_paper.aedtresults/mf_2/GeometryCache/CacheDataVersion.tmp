@@ -1,0 +1,11 @@
+$begin 'CacheDataVersion'
+	DataVersion=-1
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	h='10mil'
+	L='360mil'
+	viaR='4mil'
+	antiR='14mil'
+	viaPitch='40mil'
+	t='1mil'
+$end 'VariableValues'

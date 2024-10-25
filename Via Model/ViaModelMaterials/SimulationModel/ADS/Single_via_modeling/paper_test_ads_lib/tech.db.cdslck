@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      dingyif
+HostName                       rsgcx39r3.managed.mst.edu
+ProcessIdentifier              23712
+ProcessCreationTime_UTC        1712181488
+ProcessCreationTime_Readable   Wed Apr  3 16:58:08 2024 Central Daylight Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         D:\00_Ongoing\9_via_stripline_modeling\via_modeling\AnalyticalEvaluation\Validation\paper_test_ads\paper_test_ads_lib\tech.db.cdslck
+TimeEditLocked                 Wed Apr  3 16:59:28 2024 Central Daylight Time

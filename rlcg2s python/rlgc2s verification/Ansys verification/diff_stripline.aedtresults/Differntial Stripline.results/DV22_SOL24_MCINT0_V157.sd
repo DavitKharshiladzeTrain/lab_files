@@ -1,0 +1,128 @@
+$begin 'InterpolationData'
+	$begin 'InterpolationBasis'
+		SelectedEntries=true
+		ErrorTolerance=0.005
+		MaxBasisSize=50
+		BasisSize=6
+		LowSampleFreq=40000000
+		LowFullRangeFreq=40000000
+		HighFullRangeFreq=60000000000
+		NumSamples=1500
+		MaxSubRangeBasisSize=20
+		MinNumSubRanges=1
+		WeightedErrorForUI=1
+		LastBasisFreq=3787500000
+		NumRanges=1
+		Ranges(40000000, 60000000000, 3787500000)
+		FreqSequence(60000000000, 40000000, 30020000000, 15030000000, 7535000000, 3787500000)
+		ExtrapolationType=0
+		ExtrapolationIsConverged=false
+		ExtrapolationFreqCutoff=1500
+		ExtrapFreqSequence()
+		$begin 'SeededFrequencies'
+			$begin 'Datapoint'
+				Frequency=40000000
+				MatrixSize=2
+				$begin 'Matrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(0.0007025444187009436, 0.03664881128452554)
+						c(-2.936113143224808e-05, -0.001525292513204234)
+					$end 'r0'
+					$begin 'r1'
+						c(-2.936113143224808e-05, -0.001525292513204234)
+						c(0.000702544366622809, 0.0366488017191221)
+					$end 'r1'
+				$end 'Matrix'
+			$end 'Datapoint'
+			$begin 'Datapoint'
+				Frequency=3787500000
+				MatrixSize=2
+				$begin 'Matrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(0.06560345841504701, 3.277226797727452)
+						c(-0.002741606306685429, -0.1363621304514212)
+					$end 'r0'
+					$begin 'r1'
+						c(-0.002741606306685429, -0.1363621304514212)
+						c(0.06560345308884505, 3.277225906967831)
+					$end 'r1'
+				$end 'Matrix'
+			$end 'Datapoint'
+			$begin 'Datapoint'
+				Frequency=7535000000
+				MatrixSize=2
+				$begin 'Matrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(0.1285327698082771, 6.461880754167342)
+						c(-0.005371416203935996, -0.2688618832282782)
+					$end 'r0'
+					$begin 'r1'
+						c(-0.005371416203935996, -0.2688618832282782)
+						c(0.1285327592248915, 6.461878986797306)
+					$end 'r1'
+				$end 'Matrix'
+			$end 'Datapoint'
+			$begin 'Datapoint'
+				Frequency=15030000000
+				MatrixSize=2
+				$begin 'Matrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(0.2485035772657455, 12.77381461149266)
+						c(-0.0103849420441033, -0.5314637454514659)
+					$end 'r0'
+					$begin 'r1'
+						c(-0.0103849420441033, -0.5314637454514659)
+						c(0.2485035565113969, 12.7738110957404)
+					$end 'r1'
+				$end 'Matrix'
+			$end 'Datapoint'
+			$begin 'Datapoint'
+				Frequency=30020000000
+				MatrixSize=2
+				$begin 'Matrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(0.4653371743342863, 25.28547203909676)
+						c(-0.01944623929859175, -1.051978285815582)
+					$end 'r0'
+					$begin 'r1'
+						c(-0.01944623929859175, -1.051978285815582)
+						c(0.4653371349174589, 25.28546503620872)
+					$end 'r1'
+				$end 'Matrix'
+			$end 'Datapoint'
+			$begin 'Datapoint'
+				Frequency=60000000000
+				MatrixSize=2
+				$begin 'Matrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(0.8131120437398915, 50.10491307784544)
+						c(-0.03397932998040104, -2.084487732906922)
+					$end 'r0'
+					$begin 'r1'
+						c(-0.03397932998040104, -2.084487732906922)
+						c(0.8131119739277578, 50.10489911852741)
+					$end 'r1'
+				$end 'Matrix'
+			$end 'Datapoint'
+		$end 'SeededFrequencies'
+		$begin 'ZeroFreqImagData'
+			MatrixSize=0
+			$begin 'Matrix'
+				m=0
+				n=0
+			$end 'Matrix'
+		$end 'ZeroFreqImagData'
+	$end 'InterpolationBasis'
+$end 'InterpolationData'

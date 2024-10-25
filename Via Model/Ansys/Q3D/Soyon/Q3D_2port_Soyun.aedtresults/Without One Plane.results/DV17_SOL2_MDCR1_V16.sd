@@ -1,0 +1,16 @@
+$begin 'MatrixData'
+	Type='DCR'
+	HasTransMatrix=false
+	Frequency=60000000000
+	SolutionType='Adaptive'
+	Names(0)
+	$begin 'Matrix'
+		m=1
+		n=1
+		$begin 'r0'
+			c(0.0002445084522321214)
+		$end 'r0'
+	$end 'Matrix'
+	TransitionRegionPreviousFreqs()
+	TransitionRegionCurrentFreqs()
+$end 'MatrixData'

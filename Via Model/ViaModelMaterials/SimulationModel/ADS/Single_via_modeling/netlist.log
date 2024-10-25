@@ -1,0 +1,116 @@
+; Top Design: "paper_test_ads_lib:single_via_12mil:schematic"
+; Netlisted using Hierarchy Policy: "Standard"
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="paper_test_ads_lib:single_via_12mil:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Port:Term2  N__26 0 Num=2 Z=50 Ohm Noise=yes 
+Port:Term1  N__12 0 Num=1 Z=50 Ohm Noise=yes 
+S_Param:SP1 CalcS=yes CalcY=no CalcZ=yes GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
+SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
+
+SweepPlan: SP1_stim Start=40 MHz Stop=100 GHz Step=40 MHz 
+
+OutputPlan:SP1_Output \
+      Type="Output" \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2
+
+#load "python","LinearCollapse"
+Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
+#uselib "ckt" , "SnP"
+SnP:High_Order_Impedanze_Zpp  N__3 0 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\15mil antipad\matlab_HighorderZ_via_h_15.3mil_open_r4mil_anti15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Fundamental_Mode_Impedanze_Zpp  N__3 0 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\15mil antipad\matlab_Zpp_via_h_15mil_open_r4mil_antir15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+Port:Term3  N__6 N__3 Num=3 Z=50 Ohm Noise=yes 
+Port:Term4  N__6 0 Num=4 Z=50 Ohm Noise=yes 
+#uselib "ckt" , "S2P"
+S2P:From_My_Python  N__12 N__26 0 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\15mil antipad\python_s.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:From_My_HFSS  N__22 N__24 0 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\15mil antipad\hfss_mymodel.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+Port:Term5  N__22 0 Num=5 Z=50 Ohm Noise=yes 
+Port:Term6  N__24 0 Num=6 Z=50 Ohm Noise=yes 
+#uselib "ckt" , "S2P"
+S2P:From_Yifan_HFSS  N__19 N__5 0 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\15mil antipad\hfss_authormodel.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+Port:Term7  N__19 0 Num=7 Z=50 Ohm Noise=yes 
+Port:Term8  N__5 0 Num=8 Z=50 Ohm Noise=yes 
+C:C3  N__6 0 C=Ca fF 
+C:C4  N__6 N__3 C=Ca fF 
+
+Ca=34.930 tune{ 15.668 to 47.004 by 3.1336 }
+#uselib "ckt" , "SnP"
+SnP:High_Order_Impedanze_Zpp1  N__4 N__21 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\15mil antipad\matlab_HighorderZ_via_h_15.3mil_open_r4mil_anti15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Fundamental_Mode_Impedanze_Zpp1  N__4 N__21 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\15mil antipad\matlab_Zpp_via_h_15mil_open_r4mil_antir15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+Port:Term9  N__18 N__4 Num=9 Z=50 Ohm Noise=yes 
+Port:Term10  N__18 N__21 Num=10 Z=50 Ohm Noise=yes 
+#uselib "ckt" , "SnP"
+SnP:Ctop  N__18 N__4 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Scripts\test_Cap_barrel_antipad12.1429mil_via5mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Cbottom  N__18 N__21 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Scripts\test_Cap_barrel_antipad12.1429mil_via5mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Fundamental_Mode_Impedanze_Zpp2  N__23 N__0 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\15mil antipad\matlab_Zpp_via_h_15mil_open_r4mil_antir15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Ctop1  N__25 N__23 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\7mil antipad\python_capacitance_sparams.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Cbottom1  N__25 N__0 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\7mil antipad\python_capacitance_sparams.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:High_Order_Impedanze_Zpp2  N__23 N__0 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\15mil antipad\matlab_HighorderZ_via_h_15.3mil_open_r4mil_anti15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+Port:Term11  N__25 N__23 Num=11 Z=50 Ohm Noise=yes 
+Port:Term12  N__25 N__0 Num=12 Z=50 Ohm Noise=yes 
+#uselib "ckt" , "SnP"
+SnP:High_Order_Impedanze_Zpp4  N__16 N__15 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\matlab_HighorderZ_via_h_15.3mil_open_r4mil_anti15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Cbottom2  N__20 N__15 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\matlab_Zc.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Ctop2  N__20 N__16 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\matlab_Zc.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Fundamental_Mode_Impedanze_Zpp4  N__16 N__15 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\matlab_Zpp_via_h_15mil_open_r4mil_antir15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Fundamental_Mode_Impedanze_Zpp5  N__13 N__14 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\matlab_Zpp_via_h_15mil_open_r4mil_antir15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Ctop3  N__17 N__13 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\python_capacitance_sparams.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Cbottom3  N__17 N__14 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\python_capacitance_sparams.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:High_Order_Impedanze_Zpp5  N__13 N__14 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\matlab_HighorderZ_via_h_15.3mil_open_r4mil_anti15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:From_My_Python1  N__27 N__28 0 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\python_s.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:From_Yifan_HFSS1  N__8 N__2 0 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\hfss_authormodel.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+Port:Term13  N__27 0 Num=13 Z=50 Ohm Noise=yes 
+Port:Term14  N__28 0 Num=14 Z=50 Ohm Noise=yes 
+Port:Term19  N__8 0 Num=19 Z=50 Ohm Noise=yes 
+Port:Term20  N__2 0 Num=20 Z=50 Ohm Noise=yes 
+Port:Term21  N__17 N__13 Num=15 Z=50 Ohm Noise=yes 
+Port:Term22  N__17 N__14 Num=16 Z=50 Ohm Noise=yes 
+Port:Term23  N__20 N__16 Num=17 Z=50 Ohm Noise=yes 
+Port:Term24  N__20 N__15 Num=18 Z=50 Ohm Noise=yes 
+#uselib "ckt" , "SnP"
+SnP:High_Order_Impedanze_Zpp6  N__31 N__30 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\matlab_HighorderZ_via_h_15.3mil_open_r4mil_anti15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Ctop4  N__1 N__31 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\7mil antipad\matlab_Zc.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Fundamental_Mode_Impedanze_Zpp6  N__31 N__30 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\7mil antipad\matlab_Zpp_via_h_15mil_open_r4mil_antir15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Cbottom4  N__1 N__30 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\7mil antipad\matlab_Zc.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Fundamental_Mode_Impedanze_Zpp7  N__29 N__11 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\7mil antipad\matlab_Zpp_via_h_15mil_open_r4mil_antir15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Cbottom5  N__7 N__11 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\7mil antipad\python_capacitance_sparams.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:High_Order_Impedanze_Zpp7  N__29 N__11 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\10mil antipad\matlab_HighorderZ_via_h_15.3mil_open_r4mil_anti15mil.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "SnP"
+SnP:Ctop5  N__7 N__29 NumPorts=1 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\7mil antipad\python_capacitance_sparams.s1p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:From_Yifan_HFSS2  N__34 N__33 0 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\7mil antipad\hfss_authormodel.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:From_My_Python2  N__32 N__10 0 File="C:\Users\dkcdn\Desktop\Davit\Via Model\Data\Paper Validation\7mil antipad\python_s.s2p" Type="touchstone" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+Port:Term25  N__32 0 Num=21 Z=50 Ohm Noise=yes 
+Port:Term26  N__10 0 Num=22 Z=50 Ohm Noise=yes 
+Port:Term27  N__7 N__29 Num=23 Z=50 Ohm Noise=yes 
+Port:Term28  N__7 N__11 Num=24 Z=50 Ohm Noise=yes 
+Port:Term29  N__1 N__31 Num=25 Z=50 Ohm Noise=yes 
+Port:Term30  N__1 N__30 Num=26 Z=50 Ohm Noise=yes 
+Port:Term31  N__34 0 Num=27 Z=50 Ohm Noise=yes 
+Port:Term32  N__33 0 Num=28 Z=50 Ohm Noise=yes 

@@ -1,0 +1,20 @@
+
+hpeesofsim (*) 571.shp Nov  8 2022, MINT version 5
+    (64-bit windows built: Wed Nov 09, 2022 05:38:21 +0000)
+
+
+***** Simulation started at Thu Oct 24 16:39:32 2024
+      Running on host: "rd77ece-emclab"
+      In Directory: "C:\Users\dkcdn\Downloads\ViaModelMaterials\SimulationModel\ADS\Single_via_modeling\data"
+      Process ID: 21688
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 18
+
+
+SP SP1[1] <paper_test_ads_lib:single_via_12mil:schematic>   freq=(40 MHz->100 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     2.29 seconds.
+

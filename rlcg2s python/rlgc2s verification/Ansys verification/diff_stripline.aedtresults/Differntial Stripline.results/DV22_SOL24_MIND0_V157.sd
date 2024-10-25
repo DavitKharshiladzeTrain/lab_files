@@ -1,0 +1,115 @@
+$begin 'MatrixData'
+	Frequency=60000000000
+	SolutionType='InterpolatingSweep'
+	Names(2, 3)
+	$begin 'Frequencies'
+		NumberOfFreqs=1
+		$begin 'DataPoint'
+			Frequency=60000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(3.505087922359232e-07)
+					c(1.428081012861229e-08)
+				$end 'r0'
+				$begin 'r1'
+					c(1.428081012861229e-08)
+					c(3.50455958423521e-07)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'InterpolationBasis'
+		SelectedEntries=true
+		ErrorTolerance=0.005
+		MaxBasisSize=50
+		BasisSize=1
+		LowSampleFreq=40000000
+		LowFullRangeFreq=40000000
+		HighFullRangeFreq=60000000000
+		NumSamples=1500
+		MaxSubRangeBasisSize=20
+		MinNumSubRanges=1
+		WeightedErrorForUI=1
+		LastBasisFreq=60000000000
+		NumRanges=1
+		Ranges(40000000, 60000000000, 60000000000)
+		FreqSequence(60000000000)
+		ExtrapolationType=0
+		ExtrapolationIsConverged=false
+		ExtrapolationFreqCutoff=1500
+		ExtrapFreqSequence()
+		$begin 'SeededFrequencies'
+			$begin 'Datapoint'
+				Frequency=60000000000
+				MatrixSize=2
+				$begin 'Matrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(34.60452573819794, 132138.7016048409)
+						c(-0.3813335392909494, 5383.738582483089)
+					$end 'r0'
+					$begin 'r1'
+						c(-0.3813335392909494, 5383.738582483089)
+						c(34.91648841306232, 132118.7837268124)
+					$end 'r1'
+				$end 'Matrix'
+			$end 'Datapoint'
+		$end 'SeededFrequencies'
+		$begin 'ZeroFreqImagData'
+			MatrixSize=0
+			$begin 'Matrix'
+				m=0
+				n=0
+			$end 'Matrix'
+		$end 'ZeroFreqImagData'
+	$end 'InterpolationBasis'
+	Type='IndMatrix'
+$end 'MatrixData'
+$begin 'Added'
+	Frequency=40000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(3.589537436659622e-07)
+			c(1.447122875150916e-08)
+		$end 'r0'
+		$begin 'r1'
+			c(1.447122875150916e-08)
+			c(3.589097386384877e-07)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=30020000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(3.505228147578009e-07)
+			c(1.428046873885597e-08)
+		$end 'r0'
+		$begin 'r1'
+			c(1.428046873885597e-08)
+			c(3.504703814954673e-07)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=15030000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(3.505732907388648e-07)
+			c(1.427924081227486e-08)
+		$end 'r0'
+		$begin 'r1'
+			c(1.427924081227486e-08)
+			c(3.505221889315543e-07)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'

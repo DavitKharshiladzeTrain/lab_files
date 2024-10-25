@@ -1,0 +1,551 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=63
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='C(Rectangle1,Rectangle1)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='G(Rectangle1,Rectangle1)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='G(Rectangle1_1,Rectangle1)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='G(Rectangle1,Rectangle1_1)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=4
+		$begin 'SimValueParams'
+			QuantityName='G(Rectangle1_1,Rectangle1_1)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=5
+		$begin 'SimValueParams'
+			QuantityName='R(Rectangle1,Rectangle1)'
+			ValueState(8, 1, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=6
+		$begin 'SimValueParams'
+			QuantityName='lumpC(Rectangle1,Rectangle1)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=7
+		$begin 'SimValueParams'
+			QuantityName='lumpG(Rectangle1,Rectangle1)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=8
+		$begin 'SimValueParams'
+			QuantityName='lumpR(Rectangle1,Rectangle1)'
+			ValueState(8, 1, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=9
+		$begin 'SimValueParams'
+			QuantityName='C(Pair1:cm,Pair1:cm)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=10
+		$begin 'SimValueParams'
+			QuantityName='C(Pair1:df,Pair1:cm)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=11
+		$begin 'SimValueParams'
+			QuantityName='C(Pair1:cm,Pair1:df)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=12
+		$begin 'SimValueParams'
+			QuantityName='C(Pair1:df,Pair1:df)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=13
+		$begin 'SimValueParams'
+			QuantityName='G(Pair1:cm,Pair1:cm)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=14
+		$begin 'SimValueParams'
+			QuantityName='R(Pair1:cm,Pair1:cm)'
+			ValueState(8, 1, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=15
+		$begin 'SimValueParams'
+			QuantityName='L(Pair1:cm,Pair1:cm)'
+			ValueState(22, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=16
+		$begin 'SimValueParams'
+			QuantityName='C(Rectangle1_1,Rectangle1)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=17
+		$begin 'SimValueParams'
+			QuantityName='C(Rectangle1,Rectangle1_1)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=18
+		$begin 'SimValueParams'
+			QuantityName='C(Rectangle1_1,Rectangle1_1)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=19
+		$begin 'SimValueParams'
+			QuantityName='C(Negative,Negative)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=20
+		$begin 'SimValueParams'
+			QuantityName='G(Negative,Negative)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=21
+		$begin 'SimValueParams'
+			QuantityName='R(Negative,Negative)'
+			ValueState(8, 1, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=22
+		$begin 'SimValueParams'
+			QuantityName='L(Negative,Negative)'
+			ValueState(22, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=23
+		$begin 'SimValueParams'
+			QuantityName='lumpC(Negative,Negative)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=24
+		$begin 'SimValueParams'
+			QuantityName='lumpG(Negative,Negative)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=25
+		$begin 'SimValueParams'
+			QuantityName='lumpR(Negative,Negative)'
+			ValueState(8, 1, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=26
+		$begin 'SimValueParams'
+			QuantityName='lumpL(Negative,Negative)'
+			ValueState(22, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=27
+		$begin 'SimValueParams'
+			QuantityName='Z0(Negative,Negative)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=28
+		$begin 'SimValueParams'
+			QuantityName='Kf(Negative,Negative)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=29
+		$begin 'SimValueParams'
+			QuantityName='lumpKf(Negative,Negative)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=30
+		$begin 'SimValueParams'
+			QuantityName='Kb(Negative,Negative)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=31
+		$begin 'SimValueParams'
+			QuantityName='Vmodal(Negative,Mode1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=32
+		$begin 'SimValueParams'
+			QuantityName='Imodal(Negative,Mode1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=33
+		$begin 'SimValueParams'
+			QuantityName='Z0Modal(Mode1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=34
+		$begin 'SimValueParams'
+			QuantityName='VelModal(Mode1)'
+			ValueState(138, 20, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=35
+		$begin 'SimValueParams'
+			QuantityName='DelayModal(Mode1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=36
+		$begin 'SimValueParams'
+			QuantityName='AttenModal(Mode1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=37
+		$begin 'SimValueParams'
+			QuantityName='EpsEffModal(Mode1)'
+			ValueState(90, 15, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=38
+		$begin 'SimValueParams'
+			QuantityName='LambdaEffModal(Mode1)'
+			ValueState(36, 5, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=39
+		$begin 'SimValueParams'
+			QuantityName='Area(Rectangle1)'
+			ValueState(235, 35, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=40
+		$begin 'SimValueParams'
+			QuantityName='Z0(Positive,Negative)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=41
+		$begin 'SimValueParams'
+			QuantityName='Z0(Negative,Positive)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=42
+		$begin 'SimValueParams'
+			QuantityName='Z0(Positive,Positive)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=43
+		$begin 'SimValueParams'
+			QuantityName='C(Positive,Negative)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=44
+		$begin 'SimValueParams'
+			QuantityName='C(Negative,Positive)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=45
+		$begin 'SimValueParams'
+			QuantityName='C(Positive,Positive)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=46
+		$begin 'SimValueParams'
+			QuantityName='C(1,1)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=47
+		$begin 'SimValueParams'
+			QuantityName='C(2,1)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=48
+		$begin 'SimValueParams'
+			QuantityName='C(1,2)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=49
+		$begin 'SimValueParams'
+			QuantityName='C(2,2)'
+			ValueState(28, 4, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=50
+		$begin 'SimValueParams'
+			QuantityName='lumpR(1,1)'
+			ValueState(8, 1, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=51
+		$begin 'SimValueParams'
+			QuantityName='G(1,1)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=52
+		$begin 'SimValueParams'
+			QuantityName='G(2,1)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=53
+		$begin 'SimValueParams'
+			QuantityName='G(1,2)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=54
+		$begin 'SimValueParams'
+			QuantityName='G(2,2)'
+			ValueState(17, 2, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=55
+		$begin 'SimValueParams'
+			QuantityName='R(1,1)'
+			ValueState(8, 1, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=56
+		$begin 'SimValueParams'
+			QuantityName='R(2,1)'
+			ValueState(8, 1, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=57
+		$begin 'SimValueParams'
+			QuantityName='R(1,2)'
+			ValueState(8, 1, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=58
+		$begin 'SimValueParams'
+			QuantityName='R(2,2)'
+			ValueState(8, 1, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=59
+		$begin 'SimValueParams'
+			QuantityName='L(1,1)'
+			ValueState(22, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=60
+		$begin 'SimValueParams'
+			QuantityName='L(2,1)'
+			ValueState(22, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=61
+		$begin 'SimValueParams'
+			QuantityName='L(1,2)'
+			ValueState(22, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=62
+		$begin 'SimValueParams'
+			QuantityName='L(2,2)'
+			ValueState(22, 3, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=20
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=21
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=24
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(0, 0, 2, 0, false, false, 1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=157
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min56F33520172799396725.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(0, 0, 2, 0, false, false, 0, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=157
+						$begin 'MinorVVMap'
+							MajorVariation=''
+							MinorCacheFile='min56F33520172799396726.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

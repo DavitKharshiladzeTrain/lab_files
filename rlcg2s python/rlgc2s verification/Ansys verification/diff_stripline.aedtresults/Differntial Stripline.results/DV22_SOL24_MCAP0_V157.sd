@@ -1,0 +1,145 @@
+$begin 'MatrixData'
+	Frequency=60000000000
+	SolutionType='InterpolatingSweep'
+	Names(2, 3)
+	$begin 'Frequencies'
+		NumberOfFreqs=1
+		$begin 'DataPoint'
+			Frequency=60000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.329074098254809e-10)
+					c(-5.529275441775918e-12)
+				$end 'r0'
+				$begin 'r1'
+					c(-5.529275441775918e-12)
+					c(1.329073727972398e-10)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'InterpolationBasis'
+		SelectedEntries=true
+		ErrorTolerance=0.005
+		MaxBasisSize=50
+		BasisSize=1
+		LowSampleFreq=40000000
+		LowFullRangeFreq=40000000
+		HighFullRangeFreq=60000000000
+		NumSamples=1500
+		MaxSubRangeBasisSize=20
+		MinNumSubRanges=1
+		WeightedErrorForUI=1
+		LastBasisFreq=60000000000
+		NumRanges=1
+		Ranges(40000000, 60000000000, 60000000000)
+		FreqSequence(60000000000)
+		ExtrapolationType=0
+		ExtrapolationIsConverged=false
+		ExtrapolationFreqCutoff=1500
+		ExtrapFreqSequence()
+		$begin 'SeededFrequencies'
+			$begin 'Datapoint'
+				Frequency=60000000000
+				MatrixSize=2
+				$begin 'Matrix'
+					m=2
+					n=2
+					$begin 'r0'
+						c(0.8131120437398915, 50.10491307784544)
+						c(-0.03397932998040104, -2.084487732906922)
+					$end 'r0'
+					$begin 'r1'
+						c(-0.03397932998040104, -2.084487732906922)
+						c(0.8131119739277578, 50.10489911852741)
+					$end 'r1'
+				$end 'Matrix'
+			$end 'Datapoint'
+		$end 'SeededFrequencies'
+		$begin 'ZeroFreqImagData'
+			MatrixSize=0
+			$begin 'Matrix'
+				m=0
+				n=0
+			$end 'Matrix'
+		$end 'ZeroFreqImagData'
+	$end 'InterpolationBasis'
+	Type='CapMatrix'
+$end 'MatrixData'
+$begin 'Added'
+	Frequency=40000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.458209868593568e-10)
+			c(-6.068946078437848e-12)
+		$end 'r0'
+		$begin 'r1'
+			c(-6.068946078437848e-12)
+			c(1.458209487998258e-10)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=30020000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.340542259638293e-10)
+			c(-5.577200007091559e-12)
+		$end 'r0'
+		$begin 'r1'
+			c(-5.577200007091559e-12)
+			c(1.340541888371055e-10)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=15030000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.352638547943137e-10)
+			c(-5.627749977560452e-12)
+		$end 'r0'
+		$begin 'r1'
+			c(-5.627749977560452e-12)
+			c(1.352638175654813e-10)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=7535000000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.364884225210507e-10)
+			c(-5.678924714635226e-12)
+		$end 'r0'
+		$begin 'r1'
+			c(-5.678924714635226e-12)
+			c(1.364883851905029e-10)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'
+$begin 'Added'
+	Frequency=3787500000
+	$begin 'Matrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.3771269821559e-10)
+			c(-5.730087686306416e-12)
+		$end 'r0'
+		$begin 'r1'
+			c(-5.730087686306416e-12)
+			c(1.377126607848845e-10)
+		$end 'r1'
+	$end 'Matrix'
+$end 'Added'

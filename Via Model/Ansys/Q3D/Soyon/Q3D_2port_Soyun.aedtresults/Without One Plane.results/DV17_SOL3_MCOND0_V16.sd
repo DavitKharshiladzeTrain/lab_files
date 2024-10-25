@@ -1,0 +1,492 @@
+$begin 'MatrixData'
+	Type='Cond'
+	HasTransMatrix=false
+	Frequency=60000000000
+	SolutionType='InterpolatingSweep'
+	Names(3, 1)
+	$begin 'Frequencies'
+		NumberOfFreqs=32
+		$begin 'DataPoint'
+			Frequency=0
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.89484995269212e-15)
+					c(-1.826532791646151e-15)
+				$end 'r0'
+				$begin 'r1'
+					c(-1.826532791646151e-15)
+					c(2.349891975140723e-14)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=47683.7158203125
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.199965634691476e-10)
+					c(-7.37933322588653e-11)
+				$end 'r0'
+				$begin 'r1'
+					c(-7.379333225886532e-11)
+					c(4.538032655183863e-11)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=95367.431640625
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(4.027164827210799e-10)
+					c(-2.476531710324016e-10)
+				$end 'r0'
+				$begin 'r1'
+					c(-2.476531710324016e-10)
+					c(1.522967243531637e-10)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=190734.86328125
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.122760976011821e-09)
+					c(-6.904698700608413e-10)
+				$end 'r0'
+				$begin 'r1'
+					c(-6.904698700608413e-10)
+					c(4.246238033229274e-10)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=381469.7265625
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.669524664618669e-09)
+					c(-1.641760050799214e-09)
+				$end 'r0'
+				$begin 'r1'
+					c(-1.641760050799214e-09)
+					c(1.009688966994855e-09)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=762939.453125
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(5.804085306697134e-09)
+					c(-3.569563515421313e-09)
+				$end 'r0'
+				$begin 'r1'
+					c(-3.569563515421313e-09)
+					c(2.195323984357295e-09)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=1525878.90625
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.208543254877099e-08)
+					c(-7.43228065187813e-09)
+				$end 'r0'
+				$begin 'r1'
+					c(-7.432280651878129e-09)
+					c(4.570715437124368e-09)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=3051757.8125
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.465229876236478e-08)
+					c(-1.515924010068931e-08)
+				$end 'r0'
+				$begin 'r1'
+					c(-1.515924010068931e-08)
+					c(9.321796595213328e-09)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=6103515.625
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(4.978976089373647e-08)
+					c(-3.061394200299584e-08)
+				$end 'r0'
+				$begin 'r1'
+					c(-3.061394200299584e-08)
+					c(1.882351182073003e-08)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=12207031.25
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.000714918316921e-07)
+					c(-6.152563609074848e-08)
+				$end 'r0'
+				$begin 'r1'
+					c(-6.152563609074848e-08)
+					c(3.782718577579597e-08)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=24414062.5
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.006469249100223e-07)
+					c(-1.233538485226462e-07)
+				$end 'r0'
+				$begin 'r1'
+					c(-1.233538485226462e-07)
+					c(7.583594114284986e-08)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=48828125
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(4.018120498354437e-07)
+					c(-2.470154239752213e-07)
+				$end 'r0'
+				$begin 'r1'
+					c(-2.470154239752213e-07)
+					c(1.518543962346758e-07)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=97656250
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(8.041275398130058e-07)
+					c(-4.943245875507892e-07)
+				$end 'r0'
+				$begin 'r1'
+					c(-4.943245875507892e-07)
+					c(3.038796875327043e-07)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=195312500
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.608548943931212e-06)
+					c(-9.888092475502387e-07)
+				$end 'r0'
+				$begin 'r1'
+					c(-9.888092475502387e-07)
+					c(6.078451290665505e-07)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=390625000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(3.216239350486985e-06)
+					c(-1.97707307365554e-06)
+				$end 'r0'
+				$begin 'r1'
+					c(-1.97707307365554e-06)
+					c(1.215344118240041e-06)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=781250000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(6.426353793278495e-06)
+					c(-3.95040231278016e-06)
+				$end 'r0'
+				$begin 'r1'
+					c(-3.95040231278016e-06)
+					c(2.428399889163791e-06)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=1562500000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.282413448450378e-05)
+					c(-7.883424372091108e-06)
+				$end 'r0'
+				$begin 'r1'
+					c(-7.883424372091108e-06)
+					c(4.84622897137413e-06)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=3125000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(2.552696576107066e-05)
+					c(-1.569299335900486e-05)
+				$end 'r0'
+				$begin 'r1'
+					c(-1.569299335900486e-05)
+					c(9.647495127743133e-06)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=6250000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(5.055551479949303e-05)
+					c(-3.108177474643514e-05)
+				$end 'r0'
+				$begin 'r1'
+					c(-3.108177474643515e-05)
+					c(1.910932127581659e-05)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=12500000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(9.908163209408581e-05)
+					c(-6.09098947887292e-05)
+				$end 'r0'
+				$begin 'r1'
+					c(-6.090989478872919e-05)
+					c(3.74442148764839e-05)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=15625000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0001225849769850291)
+					c(-7.535741445596425e-05)
+				$end 'r0'
+				$begin 'r1'
+					c(-7.535741445596425e-05)
+					c(4.632515813710342e-05)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=18750000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0001455831504902994)
+					c(-8.949422329886888e-05)
+				$end 'r0'
+				$begin 'r1'
+					c(-8.949422329886886e-05)
+					c(5.501499463660002e-05)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=25000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0001900740563196382)
+					c(-0.0001168420391891572)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.0001168420391891572)
+					c(7.182532417822843e-05)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=31250000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0002325796858358258)
+					c(-0.0001429691126354431)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.0001429691126354431)
+					c(8.788501795301009e-05)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=37500000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0002731329166474033)
+					c(-0.0001678957728969304)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.0001678957728969304)
+					c(0.0001032066458113174)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=50000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0003485463571717112)
+					c(-0.0002142490741582296)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.0002142490741582296)
+					c(0.0001316981097849526)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=62499999999.99999
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0004166974353538533)
+					c(-0.0002561378323938317)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.0002561378323938317)
+					c(0.0001574449786727161)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=75000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0004780396649566104)
+					c(-0.0002938410709015125)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.0002938410709015125)
+					c(0.0001806189216257833)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=100000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0005823201941677671)
+					c(-0.0003579348493084667)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.0003579348493084667)
+					c(0.0002200129780314566)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=125000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0006655541110922421)
+					c(-0.0004090919996767812)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.0004090919996767813)
+					c(0.0002514552946408308)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=150000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0007317460903537884)
+					c(-0.0004497743923907309)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.000449774392390731)
+					c(0.0002764593117658381)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+		$begin 'DataPoint'
+			Frequency=200000000000
+			$begin 'Matrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.0008264852205707549)
+					c(-0.0005080015439048207)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.0005080015439048206)
+					c(0.0003122461949629403)
+				$end 'r1'
+			$end 'Matrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	TransitionRegionPreviousFreqs()
+	TransitionRegionCurrentFreqs()
+$end 'MatrixData'
